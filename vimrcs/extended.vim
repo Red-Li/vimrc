@@ -17,7 +17,8 @@ elseif has("win16") || has("win32")
     set guifont=Fira\ Mono\ for\ Powerline:h10
     "set guifont=Sauce\ Code\ Powerline\ Medium:h10
 elseif has("linux")
-    set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+    set guifont=Fira\ Mono\ for\ Powerline:h10
+    "set gfn=Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("unix")
     set gfn=Monospace\ 11
 endif
@@ -39,8 +40,7 @@ if has("gui_running") && has("win32")
     set background=dark
     colorscheme molokai
 else
-    colorscheme vividchalk
-    let g:colors_name="desert"
+    colorscheme default
 endif
 
 
